@@ -1,0 +1,604 @@
+
+<@media(max-width=480px){
+	*{
+	margin: 0;
+	padding: 0;
+}
+body{
+  font-family: ;: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+.container{
+	width:100% ;
+	color: goldenrod;
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url("./images/webpic2.jpg");;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 10px;
+	
+}
+	
+li a{
+	text-decoration: none;
+	color: #ff9315;
+}
+
+ul{
+	display: flex;
+	align-items: center;
+	flex: right;
+	justify-content: center;
+	
+}
+ul li{
+	list-style: none;
+	margin-right: 15px;	
+	font-size: 12px;
+	font-weight: bold;
+}
+.navEl{
+	width: 100%;
+	flex: right;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background: transparent;
+	
+}
+
+h2{
+	font-size: 18px;
+}
+.jg p{
+	margin-right: 70px;	
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-left: 4px;
+	font-weight: bold;
+	font-family: impact;
+	padding: 1px;
+	color: white;
+}
+.sidenav{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+
+
+
+
+
+
+	
+	#welcome{
+	font-size: 50px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: times new roman;
+	margin-top: 10px;
+	margin-left: 10px;
+}  
+.description{
+	padding-left: 10px;
+	font-family: times new roman;
+	font-size: 20px;
+}
+#descrip{
+	color: #ff9315;
+	font-size: 14px;
+}
+	.sub-menu{
+		background: transparent;
+		margin-left: auto;
+		margin: auto;
+		width: 90%;
+		border-radius: 3px;
+		padding-bottom: 5px;
+		border: none;
+	}
+	.sub-menu #img-1{
+		width: 100px;
+		height: 100px;
+		margin-left: 120px;
+		margin-top: 30px;
+	}
+	.sub-menu #relate{
+		/*text-align: center;*/
+		padding-top: 3px;
+		font-family: arial;
+		font-weight: bold;
+		font-size: 25px;
+		color: white;
+	}
+.sub-menu #html{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+}
+.sub-menu #html-description{
+	font-family: times new roman;
+	font-size: 10px;
+	color: #ff9315;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	
+}
+
+.sub-menu #img-2{
+		width: 100px;
+		height: 100px;
+		margin-left: 120px;
+		margin-top: 30px;
+	}
+	.sub-menu #css{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+}
+.sub-menu #css-description{
+	font-family: times new roman;
+	font-size: 10px;
+	color: #ff9315;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.sub-menu #img-3{
+		width: 100px;
+		height: 100px;
+		margin-left: 120px;
+		margin-top: 30px;
+	}
+	.sub-menu #graphics{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+}
+.sub-menu #graphics-description{
+	font-family: times new roman;
+	font-size: 10px;
+	color: #ff9315;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.sub-menu #img-4{
+		width: 100px;
+		height: 100px;
+		margin-left: 120px;
+		margin-top: 30px;
+	}
+	.sub-menu #js{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+}
+.sub-menu #js-description{
+	font-family: times new roman;
+	font-size: 10px;
+	color: #ff9315;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.sub-menu #img-5{
+		width: 120px;
+		height: 100px;
+		margin-left: 110px;
+		margin-top: 30px;
+	}
+	.sub-menu #react{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+}
+.sub-menu #react-description{
+	font-family: times new roman;
+	font-size: 10px;
+	color: #ff9315;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.sub-menu #img-6{
+		width: 120px;
+		height: 100px;
+		margin-left: 110px;
+		margin-top: 30px;
+	}
+	.sub-menu #responsive{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+}
+.sub-menu #responsive-description{
+	font-family: times new roman;
+	font-size: 10px;
+	color: #ff9315;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer{
+		font-size: 8px;
+		margin-top: 10px;
+	 color: whitesmoke;
+	 font-family: times new roman;
+	 text-align: center;
+	margin-left: 0.5px;
+	}
+	.jg{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		justify-content: space-between;
+	}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  margin-top: 30px;
+  overflow-x: hidden;
+}
+.sidenav li{
+	list-style: none;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .close-btn{
+	margin-left: 120px;
+	font-size: 40px;
+}
+#open{
+	margin-left: 20px;
+	font-size: 30px;
+	color: #ff9315;
+	font-weight: bold;
+}
+#Head-name{
+	margin-right: 20px;
+	color: white;
+	font-weight: lighter;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+}
+
+body{
+  font-family: ;: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+.container{
+	width:100% ;
+	color: goldenrod;
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url("./images/webpic2.jpg");;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 20px;
+	
+}
+	
+li a{
+	text-decoration: none;
+	color: #ff9315;
+}
+
+ul{
+	display: flex;
+	align-items: center;
+	flex: right;
+	justify-content: center;
+	
+}
+ul li{
+	list-style: none;
+	margin-right: 30px;	
+	font-size: 12px;
+	font-weight: bold;
+}
+.navEl{
+	width: 150%;
+	flex: right;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background: transparent;
+	
+}
+
+h2{
+	font-size: 18px;
+}
+.jg p{
+	margin-right: 70px;	
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-left: 4px;
+	font-weight: bold;
+	font-family: impact;
+	padding: 1px;
+	color: white;
+}
+.sidenav{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+
+
+
+
+
+
+	
+	#welcome{
+	font-size: 50px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: times new roman;
+	margin-top: 10px;
+	margin-left: 10px;
+}  
+.description{
+	padding-left: 10px;
+	font-family: times new roman;
+	font-size: 20px;
+}
+#descrip{
+	color: #ff9315;
+	font-size: 14px;
+}
+	.sub-menu{
+		background: transparent;
+		margin-left: auto;
+		margin: auto;
+		width: 90%;
+		border-radius: 3px;
+		padding-bottom: 5px;
+		border: none;
+	}
+	.sub-menu #img-1{
+		width: 100px;
+		height: 100px;
+		margin-left: 120px;
+		margin-top: 30px;
+	}
+	.sub-menu #relate{
+		/*text-align: center;*/
+		padding-top: 3px;
+		font-family: arial;
+		font-weight: bold;
+		font-size: 25px;
+		color: white;
+	}
+.sub-menu #html{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+}
+.sub-menu #html-description{
+	font-family: times new roman;
+	font-size: 10px;
+	color: #ff9315;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	
+}
+
+.sub-menu #img-2{
+		width: 100px;
+		height: 100px;
+		margin-left: 120px;
+		margin-top: 30px;
+	}
+	.sub-menu #css{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+}
+.sub-menu #css-description{
+	font-family: times new roman;
+	font-size: 10px;
+	color: #ff9315;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.sub-menu #img-3{
+		width: 100px;
+		height: 100px;
+		margin-left: 120px;
+		margin-top: 30px;
+	}
+	.sub-menu #graphics{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+}
+.sub-menu #graphics-description{
+	font-family: times new roman;
+	font-size: 10px;
+	color: #ff9315;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.sub-menu #img-4{
+		width: 100px;
+		height: 100px;
+		margin-left: 120px;
+		margin-top: 30px;
+	}
+	.sub-menu #js{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+}
+.sub-menu #js-description{
+	font-family: times new roman;
+	font-size: 10px;
+	color: #ff9315;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.sub-menu #img-5{
+		width: 120px;
+		height: 100px;
+		margin-left: 110px;
+		margin-top: 30px;
+	}
+	.sub-menu #react{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+}
+.sub-menu #react-description{
+	font-family: times new roman;
+	font-size: 10px;
+	color: #ff9315;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.sub-menu #img-6{
+		width: 120px;
+		height: 100px;
+		margin-left: 110px;
+		margin-top: 30px;
+	}
+	.sub-menu #responsive{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	color: white;
+	margin-top: 5px;
+}
+.sub-menu #responsive-description{
+	font-family: times new roman;
+	font-size: 10px;
+	color: #ff9315;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer{
+		font-size: 8px;
+		margin-top: 10px;
+	 color: whitesmoke;
+	 font-family: times new roman;
+	 text-align: center;
+	margin-left: 0.5px;
+	}
+	.jg{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		justify-content: space-between;
+	}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  margin-top: 30px;
+  overflow-x: hidden;
+}
+.sidenav li{
+	list-style: none;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .close-btn{
+	margin-left: 120px;
+	font-size: 40px;
+}
+#open{
+	margin-left: 20px;
+	font-size: 30px;
+	color: #ff9315;
+	font-weight: bold;
+}
+#Head-name{
+	margin-right: 20px;
+	color: white;
+	font-weight: lighter;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
